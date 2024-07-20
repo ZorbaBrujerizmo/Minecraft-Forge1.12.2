@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"A"
+	],
+	
+	"key":
+	{
+		"A":
+		{
+			"item": "md:adamantium_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "md:adamantium_ingot",
+		"count": 9
+	}
+}

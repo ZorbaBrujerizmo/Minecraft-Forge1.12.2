@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"AAA",
+		"AAA",
+		"AAA"
+	],
+	
+	"key":
+	{
+		"A":
+		{
+			"item": "md:copper_ingot"
+		}
+	},
+	
+	"result":
+	{
+		"item": "md:copper_block",
+		"count": 1
+	}
+}
