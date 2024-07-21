@@ -19,7 +19,7 @@ public class ModItems
 	
 	public static void initialization()
 	{
-		copper_ingot = register("coppet_ingot", new Item().setCreativeTab(CreativeTabs.MATERIALS));
+		copper_ingot = register("copper_ingot", new Item().setCreativeTab(CreativeTabs.MATERIALS));
 		steel_ingot = register("steel_ingot", new Item().setCreativeTab(CreativeTabs.MATERIALS));
 		titanium_ingot = register("titanium_ingot", new Item().setCreativeTab(CreativeTabs.MATERIALS));
 		adamantium_ingot = register("adamantium_ingot", new Item().setCreativeTab(CreativeTabs.MATERIALS));
