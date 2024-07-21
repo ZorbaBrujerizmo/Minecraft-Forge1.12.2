@@ -1,0 +1,13 @@
+{
+	"parent": "block/cube",
+	"textures":
+	{
+		"particle": "md:blocks/fusion_furnace",
+		"down": "md:blocks/fusion_furnace_down",
+		"up": "md:blocks/fusion_furnace_top",
+		"north": "md:blocks/fusion_furnace",
+		"south": "md:blocks/fusion_furnace_side",
+		"west": "md:blocks/fusion_furnace_side",
+		"east": "md:blocks/fusion_furnace_side"
+	}
+}

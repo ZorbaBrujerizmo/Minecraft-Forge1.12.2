@@ -1,5 +1,6 @@
 package com.modding.forgemod.init;
 
+import com.modding.forgemod.blocks.BlockFusionFurnence;
 import com.modding.forgemod.util.Reference;
 
 import net.minecraft.block.Block;
@@ -13,8 +14,10 @@ public class ModBlocks
 {
 	public static Block copper_block, steel_block, titanium_block, adamantium_block;
 	
-	public static Block[] listBlock = new Block[4];
-	public static Item[] listItemblock = new Item[4];
+	public static Block fusion_furnace;
+	
+	public static Block[] listBlock = new Block[5];
+	public static Item[] listItemblock = new Item[5];
 	
 	public static int id;
 	
@@ -34,6 +37,8 @@ public class ModBlocks
 		steel_block = register("steel_block", new Block(Material.IRON).setCreativeTab(CreativeTabs.BUILDING_BLOCKS));
 		titanium_block = register("titanium_block", new Block(Material.IRON).setCreativeTab(CreativeTabs.BUILDING_BLOCKS));
 		adamantium_block = register("adamantium_block", new Block(Material.IRON).setCreativeTab(CreativeTabs.BUILDING_BLOCKS));
+		
+		fusion_furnace = register("fusion_furnace", new BlockFusionFurnence());
 	}
 	
 	public static Block register(String name, Block block)

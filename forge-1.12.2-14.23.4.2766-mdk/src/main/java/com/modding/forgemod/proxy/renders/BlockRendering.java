@@ -19,6 +19,8 @@ public class BlockRendering
 		register(ModBlocks.steel_block, "steel_block");
 		register(ModBlocks.titanium_block, "titanium_block");
 		register(ModBlocks.adamantium_block, "adamantium_block");
+		
+		register(ModBlocks.fusion_furnace, "fusion_furnace");
 	}
 	
 	public static void register(Block block, String name)
